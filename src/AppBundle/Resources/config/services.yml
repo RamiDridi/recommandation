@@ -1,0 +1,4 @@
+ 
+services:
+    rating:
+        class:  AppBundle\Services\recommend     
