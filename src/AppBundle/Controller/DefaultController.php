@@ -19,8 +19,7 @@ class DefaultController extends Controller {
         $this->createUsers($users);
         $this->createArtists($artists);
         $this->createTunes($tunes);
-        $this->createUserRating($ratings);
-        $this->allUserRating();
+        $this->createUserRating($ratings);        
 
         return $this->redirectToRoute('userRating');
     }
